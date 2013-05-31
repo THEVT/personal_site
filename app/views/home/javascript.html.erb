@@ -1,0 +1,55 @@
+
+<script> 
+$(document).ready(function(){
+	$(".jquery_animate").hover(function(){
+		 $(this).animate({height: '210px', width:'210px', margin: '240px 0px 0px -10px'},"slow");
+		$('.jquery_animate p').animate({fontSize: '50px'},"slow");
+	/*}, function() {
+            $(this).animate({height:'300px',opacity:'0.4'},"slow");
+backgroundColor: "#aa0000", color: "#fff"
+*/
+	});
+});
+</script> 
+<div id= "homepage_background_2">
+
+	<div class= "main_page">
+
+		<%= render "header" %>
+
+		<div class= "page_background">
+		</div>
+
+		<div class= "page">
+
+			<h1 id="javascript_title">Javascript/<br>jQuery:</h1>
+			
+			<div class="javascript_images">
+				<div class="phone">
+					<img src="/assets/phone.jpg" />
+				</div>
+				<img src="/assets/jquery.jpg" id="jquery"/>
+				<div class="jquery_animate">
+					<p>jQuery</p>
+				</div>
+				<div class="javascript_animate">
+					<p>JavaScript</p>
+				</div>
+			</div>
+	
+			<div class="javascript_body">
+				<p>Through my own web venture and other projects, I have had to do a good bit of JavaScript and jQuery. Anywhere from visual displays and animations to the not so exciting DOM/ Database(AJAX) interactions and manipulations.</p>
+				<p>I would rate myself as a moderate Javascript/jQuery programmer in experience and ability. I am no expert in JavaScript/jQuery but at the same time I am far from a beginner.</p>
+				<P>I could undertake and complete most projects concerning JavaScipt/jQuery but as one would expect, the more difficult and complex projects will take me longer than a expert programmer in Javascript/jQuery.</p>
+				<p>I am also working on a App and mobile version for my web venture, Kaljaa, so I am familiar with the mobile aspects of web development with jQuery/JavaScript.  I plan to have a mobile version of this site your on currently as soon as I find time.</p>
+			</div>
+
+
+		</div>
+
+
+	</div>
+
+	<%= render "footer" %>
+
+</div>

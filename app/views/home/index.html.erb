@@ -1,0 +1,155 @@
+<script> 
+$(document).ready(function(){
+  $("#flip").hover(function(){
+    $("#panel").slideToggle("slow");
+  });
+	//trees fade
+	
+/*
+	$("#rails_link_home_page").hover(function(){
+		$("#pink_tree_rails").stop(true, true).fadeIn(700);
+		$("#green_tree_rails").stop(true, true).fadeIn(700);
+	},
+	function(){
+    	$("#pink_tree_rails").stop(true, true).fadeOut(2000);
+		$("#green_tree_rails").stop(true, true).fadeOut(2000);
+	});
+
+	$(" #html_link_home_page").hover(function(){
+		$("#pink_tree_html").stop(true, true).fadeIn(700);
+		$("#green_tree_html").stop(true, true).fadeIn(700);
+	},
+	function(){
+    	$("#pink_tree_html").stop(true, true).fadeOut(2000);
+		$("#green_tree_html").stop(true, true).fadeOut(2000);
+	});
+
+	$("#javascript_link_home_page").hover(function(){
+		$("#pink_tree_jquery").stop(true, true).fadeIn(700);
+		$("#green_tree_jquery").stop(true, true).fadeIn(700);
+	},
+	function(){
+    	$("#pink_tree_jquery").stop(true, true).fadeOut(2000);
+		$("#green_tree_jquery").stop(true, true).fadeOut(2000);
+	});
+	
+	$("#misc_link_home_page").hover(function(){
+		$("#pink_tree_misc").stop(true, true).fadeIn(700);
+		$("#green_tree_misc").stop(true, true).fadeIn(700);
+	},
+	function(){
+    	$("#pink_tree_misc").stop(true, true).fadeOut(2000);
+		$("#green_tree_misc").stop(true, true).fadeOut(2000);
+	});
+*/
+
+	//buttons animation
+
+	$('#bio_link_home_page')
+        .hover(function() {
+            $(this).stop().animate({ margin: '40px 0px 0px 600px', opacity: '1' }, 400);
+        }, function() {
+            $(this).stop().animate({ margin: '50px 0px 0px 600px', opacity: '.9'  }, 'fast');
+        });
+
+	$('#html_link_home_page')
+        .hover(function() {
+            $(this).stop().animate({ margin: '240px 0px 0px 725px', opacity: '1' }, 400);
+        }, function() {
+            $(this).stop().animate({ margin: '250px 0px 0px 725px', opacity: '.9'  }, 'fast');
+        });
+
+	$('#rails_link_home_page')
+        .hover(function() {
+            $(this).stop().animate({ margin: '340px 0px 0px 450px', opacity: '1' }, 400);
+        }, function() {
+            $(this).stop().animate({ margin: '350px 0px 0px 450px', opacity: '.9'  }, 'fast');
+        });
+
+	$('#javascript_link_home_page')
+        .hover(function() {
+            $(this).stop().animate({ margin: '515px 0px 0px 700px', opacity: '1' }, 400);
+        }, function() {
+            $(this).stop().animate({ margin: '525px 0px 0px 700px', opacity: '.9'  }, 'fast');
+        });
+
+	$('#misc_link_home_page')
+        .hover(function() {
+            $(this).stop().animate({ margin: '630px 0px 0px 390px', opacity: '1' }, 400);
+        }, function() {
+            $(this).stop().animate({ margin: '640px 0px 0px 390px', opacity: '.9'  }, 'fast');
+        });
+
+	$('#contact_link_home_page')
+        .hover(function() {
+            $(this).stop().animate({ margin: '740px 0px 0px 20px', opacity: '1' }, 400);
+        }, function() {
+            $(this).stop().animate({ margin: '750px 0px 0px 20px', opacity: '.9'  }, 'fast');
+        });
+
+
+	$('#bio_link_home_page, #html_link_home_page, #rails_link_home_page, #javascript_link_home_page, #misc_link_home_page')
+        .hover(function() {
+            $("#green_tree").stop().animate({ opacity: 1 }, 700);
+			$("#pink_tree").stop().animate({ opacity: 1 }, 700);
+        }, function() {
+            $("#green_tree").stop().animate({ opacity: 0 }, 2000);
+			$("#pink_tree").stop().animate({ opacity: 0 }, 2000);
+        });
+
+});
+
+</script>
+
+
+<div id= "homepage_background">	
+			
+	<div class= "homepage">
+		<img src="/assets/tree_branch_detailed2_green_crop.png" id="green_tree_misc" />
+		<img src="/assets/tree_branch_detailed2_pink.png" id="pink_tree_misc" />
+
+		<img src="/assets/tree_branch_detailed2_green_crop.png" id="green_tree_jquery" />
+		<img src="/assets/tree_branch_detailed2_pink.png" id="pink_tree_jquery" />
+
+		<img src="/assets/tree_branch_detailed2_green_crop.png" id="green_tree_rails" />
+		<img src="/assets/tree_branch_detailed2_pink.png" id="pink_tree_rails" />
+
+		<img src="/assets/tree_branch_detailed2_green_crop.png" id="green_tree_html" />
+		<img src="/assets/tree_branch_detailed2_pink.png" id="pink_tree_html" />
+		
+		<img src="/assets/tree_branch_detailed2_green_crop.png" id="green_tree" />
+		<img src="/assets/tree_branch_detailed2_pink.png" id="pink_tree" />
+		<img src="/assets/tree_branch_detailed2.png" id="white_tree" />
+
+		<h1 id="ryan_flynn">Ryan <br> Flynn </h1>
+		<h4 id="ryan_flynn_qoute"> Web Developer & <br> Programmer</h4>
+		<div id="bio_link_home_page">
+			<%= link_to "Bio", bio_path %>
+		</div>
+<div id="html_link_home_page">
+		<%= link_to "HTML5/<br>CSS3".html_safe, html_path %>
+</div>
+<div id="rails_link_home_page">
+		<%= link_to "Ruby/<br>Rails".html_safe, rails_path %>
+</div>
+<div id="javascript_link_home_page">
+		<%= link_to "JavaScript/<br>jQuery".html_safe, javascript_path %>
+</div>
+<div id="misc_link_home_page">
+		<%= link_to "Extra".html_safe, extra_path %>
+</div>
+<div id="contact_link_home_page">
+		<%= link_to "Contact".html_safe, contact_path %>
+</div>
+		<h5 id="home_legal"> Site Designed and <br>Built By Yours Truly, <br>Ryan Flynn</h5>
+		<p id="pic_credit">Photo Credit: labutle.wordpress</p>
+		<h1 id= "js_test"> JAVASCRIPT</h1>
+
+
+		<!--<div id="flip">Click to slide the panel down or up</div>
+	<div id="panel"><img src="assets/rails.png" alt="some_text"></div>
+
+		</div>-->
+	</div>
+
+</div>

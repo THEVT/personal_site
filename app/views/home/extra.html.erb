@@ -1,0 +1,172 @@
+
+<script>
+$(document).ready(function() {
+   
+
+	$('.extra_boxes p')
+        .hover(function() {
+            $(this).stop().animate({ top: -10 }, 'fast');
+        }, function() {
+            $(this).stop().animate({ top: 0 }, 'fast');
+        });
+
+		$(function() {
+			$( ".extra_box" ).tabs();
+		  });
+
+		$("#pic1_click p").click(function(){
+			$("#pic1").toggle();
+			$("#pic2").hide();
+			$("#pic3").hide();
+		});
+		$("#pic2_click p").click(function(){
+			$("#pic2").toggle();
+			$("#pic1").hide();
+			$("#pic3").hide();
+		});
+		$("#pic3_click p").click(function(){
+			$("#pic3").toggle();
+			$("#pic2").hide();
+			$("#pic1").hide();
+		});
+});
+
+</script>
+
+<div id= "homepage_background_2">
+
+	<div class= "main_page">
+
+		<%= render "header" %>
+
+		<div class= "page_background">
+		</div>
+
+		<div class= "page">
+
+			<div class= "extra">
+
+				<h1>Extras:</h1>
+
+				<p>Besides my three areas of concentration (Ruby/Ruby on Rails, Javascript/Jquery, HTML5/CSS3), here are some extra experiences, things I have done, and skills that I have.<p> 
+				<p>These experiences and skills range from me working with them quite a bit to me briefly working with them.  I'll provide more details in each section.<p>
+				<p>I will be more then happy to elaborate and talk about each of these topics in more detail.  Just send me a email and I will happily get back to you.</p>
+
+			</div>
+
+			<div class= "extra_box">
+
+					<div id="tabs-0" class= "extra_tab">
+					</div>
+					<div id="tabs-1" class= "extra_tab">
+						<h1>Kaljaa:</h1>
+						<p>Kaljaa is a social site that I started with three other programmers about three years ago while still in school.  Kaljaa is a type of social network built with Ruby on Rails that is design specifically for the beer industry and culture.  Kaljaa is design to benefit each industry sector and fill their needs as a business, beer consumer, and media with emphasis on simplicity, effectiveness, and ease of use (<%= link_to "more info".html_safe, rails_path %>).</p>
+<p>The site was temporarily launched in a very successful and well received clinical/beta trial. During that trial, Kaljaa had hundreds of users join that included people from all parts of the industry such as beer drinkers, breweries, beer distributors, restaurants, and critics.</p>
+<p>Right now the site is being rebuilt and hopefully a new beta launch will be ready by the end of this June (fingers crossed).  Currently, due to graduations, new jobs, moves, and life in general, I am doing the rebuild mostly by myself and my programmers chime in when they can.</p>
+<p>Thats about 3 years of craziness summed up as shortly as possible, :-).
+					</div>
+					<div id="tabs-2" class= "extra_tab">
+						<h1>Resume:</h1>
+						<p>This site is pretty much my resume but if there is a need for the paper version, I have links below.  One is a page on this site and the other is a pdf.</p>
+						<p>Online Resume: <%= link_to "Click Here".html_safe, resume_path %></p>
+						<p>PDF Download of Resume: Click Here</p>
+					</div>
+					<div id="tabs-3" class= "extra_tab">
+						<h1>Drupal:</h1>
+						<p>I have done contract work for Drupal jobs.  I have not done extensive jobs with Drupal but I can accomplish most Drupal requests and projects without much trouble. I also have created a a personal demo site made in Drupal 7 (drupal.dew-boms.com).  Please ignore the written content on the demo site, it is very old/outdated and some of it not correct. The site is just demo.</p>
+					</div>
+					<div id="tabs-4" class= "extra_tab">
+						<h1>WordPress:</h1>
+						<p>I have used and built some websites with WordPress.  I find WordPress very easy to use and most likely could accomplish most projects or requests for WordPress.  Like Drupal, I also have created a a personal demo site made in Drupal 7 (drupal.dew-boms.com).  Please ignore the written content on the demo site, it is very old/outdated and some of it not correct.</p>
+					</div>
+					<div id="tabs-5" class= "extra_tab">
+						<h1>PHP:</h1>
+						<p>I first learned web development/ programming using PHP and a WAMP/LAMP.  I have not used it much as of late because I have been using Rails but it wouldn't take me that long to get back into the swing of things.  One of my first sites I built in PHP.</p>  
+						<p>On that site, I built a catalog, membership/profile, forum/blog, and interactive gallery all from scratch using PHP.  You can check it out here, oldsitePHP.dew-boms.com.</p>  <p>Please ignore much of the written content on the site due to the fact it is old/outdated, some of it now incorrect, and written back in time of naiveness and mis-direction while learning to program, :-).</p>
+					</div>
+					<div id="tabs-6" class= "extra_tab">
+						<h1>Design:</h1>
+						<p>I pretty much do all my web designing and layouts myself.  The site you are currently on, Kaljaa, and any other site I have done has been designed and laid out by me.  I may not be as good as somebody who specializes in graphic-designs/layouts/web designs but I can hold my own.</p>
+						<p>I understand the theories and ideas behind web design such as F-Layout, Z-Layout, grid base, visual hierarchy, color, usability, UX(User Experience), typography, and others.  I try my best to implement these ideas/theories and keep up to date with them.</p>
+						<p>I have experience with and currently use Adobe products and other digital editors such as GIMP.  For the Adobe products, I mostly use Photoshop but I have briefly used their other programs such as Illustrator, InDesign, and Dreamweaver.</p>
+					</div>
+					<div id="tabs-7" class= "extra_tab">
+						<h1 id="double_line_title">Project<br>Management:</h1>
+<p>With Kaljaa, I have been leading and developing a very complex social network for the entire beer industry. I have been involved in all the steps in development. All the way from finding programmers, conceptual/graphic design, programming, and putting it to the web. </p>
+<p>I have explored development methodologies such as Feature Driven Development (FDD), Scrum, and Agile to better my skills at project management.</p>
+<p>I will say that the management of people, resources, and projects is one of my strongest attributes.  Other then the development of Kaljaa, I have single handily organized and ran complex, resource efficient, and very successful events involving groups ranging from 10 people to a 115 people.</p>
+<p>In terms of finding people, with YRCI, I have been involved in the recruitment and hiring of employees of varying positions for government agencies such as USDA, NSF, NRCS, and NFC.</p>
+					</div>
+					<div id="tabs-8" class= "extra_tab">
+						<h1 id="double_line_title">Business<br>Management:</h1>
+<p>My technical/web development background is based off a very strong business background. I went to Virginia Tech double majoring in Economics and Hospitality/Tourism Management. I'm also very passionate about the culture and science of business.</p>
+<p>Ever since middle school, I have subscribe to and been interested in magazines such as Inc., Fast Company, The Economist, and Entrepreneur. I love the progressive ideas, the competition, and science of successful business.</p>
+<p>Through my schooling, personal passion for business, and starting a personal web venture, I have great depth for business concepts and general know how.</p>
+					</div>
+					<div id="tabs-9" class= "extra_tab">
+						<h1>Misc:</h1>
+						<p>Couldn't think of anything really necessary to put here so here are some entertaining pictures instead.</p>
+						<div id="pic1_click">
+							<p>Click To See First Photo</p>
+							<img id="pic1" src="/assets/lab.jpg" />
+						</div>
+						<div id="pic2_click">
+							<p>Click To See Second Photo</p>
+							<img id="pic2" src="/assets/pug.jpg" />
+						</div>
+						<div id="pic3_click">
+							<p>Click To See Third Photo</p>
+							<img id="pic3" src="/assets/monkey.jpg" />
+						</div>
+					</div>
+					<ul>
+						<li><a href="#tabs-0"></a></li>
+						<li id= "bar1"><a href="#tabs-1">Kaljaa</a></li>
+						<li id= "bar2"><a href="#tabs-2">Resume</a></li>
+						<li id= "bar3"><a href="#tabs-3">Drupal</a></li>
+						<li id= "bar4"><a href="#tabs-4">WordPress</a></li>
+						<li id= "bar5"><a href="#tabs-5">PHP</a></li>
+						<li id= "bar6"><a href="#tabs-6">Design</a></li>
+						<li id= "bar7"><a href="#tabs-7">Project Management</a></li>
+						<li id= "bar8"><a href="#tabs-8">Business Management</a></li>
+						<li id= "bar9"><a href="#tabs-9">Misc</a></li>
+					</ul>				
+					<!--
+					<div class= "color_links">
+							<p id= "bar1"><a href="#tabs-1">Kaljaa</a></p>
+							<p id= "bar2"><a href="#tabs-2">Resume</a></p>
+							<p id= "bar3"><a href="#tabs-3">Drupal</a></p>
+							<p id= "bar4"><a href="#tabs-4">WordPress</a></p>
+							<p id= "bar5"><a href="#tabs-5">PHP</a></p>
+							<p id= "bar6"><a href="#tabs-6">Design</a></p>
+							<p id= "bar7"><a href="#tabs-7">Project Management</a></p>
+							<p id= "bar8"><a href="#tabs-8">Business Management</a></p>
+							<p id= "bar9"><a href="#tabs-9">Misc</a></p>
+					</div>
+					<div class= "extra_boxes">
+						<p id="box1"><a href="#tabs-1">&nbspKaljaa</a></p>
+						<p id="box2"><a href="#tabs-2">&nbspResume</a></p>
+						<p id="box3"><a href="#tabs-3">&nbspDrupal</a></p>
+						<p id="box4"><a href="#tabs-4">&nbspWordPress</a></p>
+						<p id="box5"><a href="#tabs-5">&nbspPHP</a></p>
+						<p id="box6"><a href="#tabs-6">&nbspDesign</a></p>
+						<!-- this is a retarded way to do this, find better -->
+						<!--<p id="box7"><a href="#tabs-7"> &nbspProject&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbspManagement</a></p>
+						<p id="box8"><a href="#tabs-8"> &nbspBusiness&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbspManagement</a></p>
+						<p id="box9"><a href="#tabs-9">&nbspMisc</a></p>
+					</div>-->
+
+					
+					
+			</div>
+			
+
+	
+		</div>
+
+
+	</div>
+
+	<%= render "footer" %>
+
+</div>
