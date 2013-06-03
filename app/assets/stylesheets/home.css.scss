@@ -1071,7 +1071,7 @@ transform:rotate(-45deg);
 	position: absolute;
 	top: 235px; //222px
 	width: 1000px;
-	height: 2900px;
+	height: 3000px;
 	background-color: #1a1a1a;
 	opacity: .96;
 	border-radius: 15px;
@@ -1084,13 +1084,13 @@ transform:rotate(-45deg);
 	position: absolute;
 	top: 235px; //222px
 	width: 1000px;
-	height: 2900px;
+	height: 3000px;
 	color: #fff;
 }
 
 .main_page_resume{
 	margin: 0 auto;
-	height: 3150px;
+	height: 3250px;
 	width: 1000px; 
 }
 
@@ -1107,6 +1107,10 @@ transform:rotate(-45deg);
 	line-height: 1.2;
 }
 
+.resume p {
+	margin: 15px;
+}
+
 .resume a {
 	color: #37e907;
 }
@@ -1117,6 +1121,10 @@ transform:rotate(-45deg);
 .job_body li {
 	list-style-type: square;
 
+}
+
+.job_body ul{
+	margin: 15px;
 }
 .resume h4 {
 	/*font-weight: bold;*/
