@@ -2,13 +2,16 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
 gem "bcrypt-ruby"
-gem "mysql2"
+#gem "mysql2"
 gem "will_paginate"
 gem "paperclip"
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+group :development do
+  gem 'sqlite3'
+end
 
 
 # Gems used only for assets and not required
@@ -25,6 +28,11 @@ end
 
 gem 'jquery-rails'
 gem "jquery_mobile_rails"
+gem "jquery-ui-rails"
+
+group :production do
+  gem 'pg'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
