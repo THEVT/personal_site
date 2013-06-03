@@ -7,7 +7,7 @@
 body {
 	background: #272727;
 	margin: 0;
-
+	font-family: "Times New Roman", Times, serif;
 }
 
 #homepage_background{
@@ -68,7 +68,7 @@ body {
 	//background-color: red;
 	font-size: 50px;
 	color: #fff;//#fff, #f3f3f3, 
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	margin: 40px 0px 15px 60px;
 }
@@ -101,7 +101,7 @@ body {
 	//position: absolute;font-size: 60px;
 	font-size: 50px;
 	color: #fff;//#fff, #f3f3f3, 
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	width: 880px;
 	margin: 40px 0px 15px 60px;
@@ -112,13 +112,14 @@ body {
 */
 
 .toolbar {
-	position: absolute;
+	position: relative;
+	text-align: center;
 	top: 170px;
 	width: 1000px;
 	height: 50px;
 	font-size: 23px;
 	color: #fff;//#fff, #f3f3f3
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	border-style: solid;
 	background-color: #272727;
@@ -137,7 +138,7 @@ body {
 	text-decoration: none;
 	margin: 0px -7px 0px 0px;
 	display: inline;
-	padding: 0px 22px;
+	padding: 0px 20px;
 	border-right: 1px solid #272727;
 	border-left: 1px solid #272727;
 }
@@ -189,7 +190,7 @@ body {
 	position: absolute;
 	font-size: 140px;
 	color: #fff;//#fff, #f3f3f3, 
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	width: 400px;
 	text-shadow: 0px 0 #ff0084, 0 2px #ff0084, 3px 0 #ff0084, 0 0px #ff0084;//ff0084, ffff00, 37e907 green, ff0084 pink, 001b3c blue, #005fd6 light blue, 00eefc lighter blue, FF8300 orange
@@ -202,7 +203,7 @@ body {
 	text-decoration: none;
 	font-size: 80px;
 	color: #fff;//#fff, #f3f3f3, 
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	width: 230px;
 	text-shadow: 0px 0 #ff0084, 0 2px #ff0084, 3px 0 #ff0084, 0 0px #ff0084;//ff0084, ffff00, 37e907 green, ff0084 pink, 001b3c blue, #005fd6 light blue, 00eefc lighter blue, FF8300 orange
@@ -218,7 +219,7 @@ body {
 	position: absolute;
 	font-size: 30px;
 	color: #f3f3f3;//#fff, #f3f3f3
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	//width: 250px;
 	top: 287px;
@@ -231,7 +232,7 @@ body {
 	margin: 97px 0px 0px 240px;
 	font-size: 27px;
 	color: #f3f3f3;//#fff, #f3f3f3
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	//width: 500px;
 	//text-shadow: -2px 0 #37e907, 0 0px #37e907, 0px 0 #37e907, 0 0px #37e907;//ff0084, ffff00, 37e907 green, ff0084 pink,
@@ -305,7 +306,7 @@ body {
 	position: absolute;
 	background-color: #272727;
 	font-size: 70px;
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	color: #00eefc;
 	text-decoration: none;
@@ -337,7 +338,7 @@ transition:background-color .4s, opacity;
 	position: absolute;
 	background-color: #272727;
 	font-size: 60px;
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	color: #00eefc;
 	padding: 5px;
@@ -373,7 +374,7 @@ transition:background-color .4s, opacity;
 #rails_link_home_page a{
 	position: absolute;
 	font-size: 60px;
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	color: #00eefc;
 	padding: 5px;
@@ -409,7 +410,7 @@ transition:background-color .4s, opacity;
 #javascript_link_home_page a{
 	position: absolute;
 	font-size: 60px;
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	color: #00eefc;
 	padding: 8px;
@@ -442,7 +443,7 @@ transition:background-color .4s, opacity;
 #misc_link_home_page a{
 	font-size: 60px;
 	position: absolute;
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	color: #00eefc;
 	padding: 3px;
@@ -476,7 +477,7 @@ transition:background-color .4s, opacity;
 #contact_link_home_page a{
 	position: absolute;
 	font-size: 40px;
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	color: #faff00;
 	padding: 4px;
@@ -494,7 +495,7 @@ transition:background-color .4s, opacity;
 	font-size: 16px;
 	color: #f3f3f3;//#fff, #f3f3f3, 
 	margin: 800px 0px 0px 810px;
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 
 }
@@ -504,7 +505,7 @@ transition:background-color .4s, opacity;
 	font-size: 11px;
 	color: #f3f3f3;//#fff, #f3f3f3, 
 	margin: 850px 0px 0px 810px;
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 
 }
@@ -533,7 +534,7 @@ transition:background-color .4s, opacity;
 	font-size: 19px;
 	//letter-spacing:1px;
 	line-height: 21px;
-	//font-family: Tahoma, Verdana, Segoe, sans-serif;
+	//font-family: Arial, Helvetica, sans-serif;
 	float: left;
 	width: 600px;
 	margin: 30px 0px 0px 40px;
@@ -554,7 +555,7 @@ transition:background-color .4s, opacity;
 .extra h1 {
 	font-size: 60px;
 	color: #fff;//#fff, #f3f3f3, 
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	width: 880px;
 	margin: 50px 0px 20px 60px;
@@ -581,7 +582,7 @@ transition:background-color .4s, opacity;
 	height:500px;
 	//background-color: green;
 	font-size: 22px;
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 }
 
@@ -646,7 +647,7 @@ transition:background-color .4s, opacity;
 
 .extra_box ul {
 	//background-color: green;
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	position: relative;
 	margin: 80px 0px 0px 395px;
@@ -760,7 +761,7 @@ transition:background-color .4s, opacity;
 .extra_tab h1 {
 	font-size: 40px;
 	color: #fff;//#fff, #f3f3f3, 
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	margin: 65px 0px 0px 60px;
 }
@@ -802,7 +803,7 @@ transition:background-color .4s, opacity;
 	//background-color: red;
 	font-size: 50px;
 	color: #fff;//#fff, #f3f3f3, 
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	margin: 40px 0px 15px 60px;
 }
@@ -816,10 +817,11 @@ transition:background-color .4s, opacity;
 }
 
 .javascript_body p {
-		position: relative;
-		font-size: 18px;
-		line-height: 19px;
-		margin: 15px 75px 0px 60px;
+	font-family: "Times New Roman", Times, serif;
+	position: relative;
+	font-size: 18px;
+	line-height: 19px;
+	margin: 15px 75px 0px 60px;
 }
 
 .javascript_images{
@@ -902,6 +904,7 @@ transition:background-color .4s, opacity;
 }
 
 .css3 p {
+	font-family: "Times New Roman", Times, serif;
 	text-align: center;
 	font-size: 70px;
 	margin-top: 60px;
@@ -911,7 +914,7 @@ transition:background-color .4s, opacity;
 .css3 {
 	position: absolute;
 	width: 200px;
-	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	height: 200px;
 	color: #272727;
@@ -931,18 +934,18 @@ transition:background-color .4s, opacity;
 {
 0%   {background:red; margin: 325px 0px 0px 5px;}
 10%   {background:red; margin: 300px 0px 0px 15px;}
-20%  {background:yellow; -webkit-transform:rotate(30deg); -ms-transform:rotate(30deg); margin: 450px 0px 0px 15px;}
+20%  {background:yellow; transform: rotate(30deg); -webkit-transform:rotate(30deg); -ms-transform:rotate(30deg); margin: 450px 0px 0px 15px;}
 //40%  {background:blue; border-radius:50%;  -webkit-transform:rotate(90deg); -ms-transform:rotate(90deg); margin: 450px 0px 0px 15px; color: #fff;}
-60%  {background:green; border-radius:50%;  -webkit-transform:rotate(340deg); -ms-transform:rotate(340deg); margin: 350px 0px 0px 15px; color: #fff;}
-80% {background:red; border-radius:50%;  -webkit-transform:rotate(390deg); -ms-transform:rotate(390deg); margin: 300px 0px 0px 30px;}
-100% {background:#33ffff; border-radius:5%;  -webkit-transform:rotate(360deg); -ms-transform:rotate(360deg); margin: 325px 0px 0px 5px;}
+60%  {background:green; border-radius:50%;  transform: rotate(340deg); -webkit-transform:rotate(340deg); -ms-transform:rotate(340deg); margin: 350px 0px 0px 15px; color: #fff;}
+80% {background:red; border-radius:50%;  transform: rotate(390deg); -webkit-transform:rotate(390deg); -ms-transform:rotate(390deg); margin: 300px 0px 0px 30px;}
+100% {background:#33ffff; border-radius:5%;  transform: rotate(360deg); -webkit-transform:rotate(360deg); -ms-transform:rotate(360deg); margin: 325px 0px 0px 5px;}
 }
 
 @-webkit-keyframes myfirst /* Safari and Chrome */
 {
 0%   {background:red; margin: 325px 0px 0px 5px;}
 10%   {background:red; margin: 300px 0px 0px 15px;}
-20%  {background:yellow; -webkit-transform:rotate(30deg); -ms-transform:rotate(30deg); margin: 450px 0px 0px 15px;}
+20%  {background:yellow; transform: rotate(30deg); -webkit-transform:rotate(30deg); -ms-transform:rotate(30deg); margin: 450px 0px 0px 15px;}
 //40%  {background:blue; border-radius:50%;  -webkit-transform:rotate(90deg); -ms-transform:rotate(90deg); margin: 450px 0px 0px 15px; color: #fff;}
 60%  {background:green; border-radius:50%;  -webkit-transform:rotate(340deg); -ms-transform:rotate(340deg); margin: 350px 0px 0px 15px; color: #fff;}
 80% {background:red; border-radius:50%;  -webkit-transform:rotate(390deg); -ms-transform:rotate(390deg); margin: 300px 0px 0px 30px;}
@@ -985,6 +988,7 @@ transform:rotate(-45deg);
 	width: 1000px;
 	height: 1150px;
 	color: #fff;
+	font-family: "Times New Roman", Times, serif;
 }
 
 .main_page_rails{
@@ -1051,6 +1055,11 @@ transform:rotate(-45deg);
 	width: 600px;
 	font-size: 19px;
 	line-height: 21px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.contact p{
+	margin: 15px;
 }
 
 .contact a{
@@ -1070,6 +1079,8 @@ transform:rotate(-45deg);
 }
 
 .page_resume {
+	font-family: "Times New Roman", Times, serif;
+	//font-size: 18px;
 	position: absolute;
 	top: 235px; //222px
 	width: 1000px;
