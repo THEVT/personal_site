@@ -934,9 +934,9 @@ transition:background-color .4s, opacity;
 	background-color: #33ffff;
 	margin: 325px 0px 0px 5px;
 	animation:myfirst 8s;
-	animation-delay:2.5s;
+	animation-delay:3.5s;
 	-webkit-animation:myfirst 8s; /* Safari and Chrome */
-	-webkit-animation-delay:2.5s;
+	-webkit-animation-delay:3.5s;
 	transition:background 2s, margin 2s, border-radius 2s, transform 2s, color 2s;
 	-webkit-transition:background 2s, margin 2s, color 2s, border-radius 2s, -webkit-transform 2s; /* Safari */
 }
