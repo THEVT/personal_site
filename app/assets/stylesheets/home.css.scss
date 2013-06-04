@@ -262,6 +262,7 @@ body {
 }
 
 .footer #c {
+	margin-top: 2px;
 	font-size: 14px;
 }
 
@@ -542,6 +543,10 @@ transition:background-color .4s, opacity;
 	//box-shadow: 0px 0px 3px 0px #fff;
 }
 
+#bio_body p {
+	margin-top: 15px;
+}
+
 ////****************Extras*****************/////////////////////////////
 
 .extra {
@@ -770,6 +775,12 @@ transition:background-color .4s, opacity;
 	margin: 45px 0px 0px 60px;
 }
 
+.extra_tab a {
+	//color: #37e907;
+	color: #00eefc;
+	//color: #ff0084;
+}
+
 .extra_tab p {
 	font-size: 18px;
 	line-height: 19px;
@@ -991,6 +1002,16 @@ transform:rotate(-45deg);
 	font-family: "Times New Roman", Times, serif;
 }
 
+.page_rails a {
+	//color: #37e907;
+	color: #00eefc;
+	//color: #ff0084;
+}
+
+.page_rails ul {
+	margin-top: 15px;
+}
+
 .main_page_rails{
 	margin: 0 auto;
 	height: 1450px;
@@ -1071,7 +1092,7 @@ transform:rotate(-45deg);
 	position: absolute;
 	top: 235px; //222px
 	width: 1000px;
-	height: 3000px;
+	height: 3380px;
 	background-color: #1a1a1a;
 	opacity: .96;
 	border-radius: 15px;
@@ -1084,13 +1105,13 @@ transform:rotate(-45deg);
 	position: absolute;
 	top: 235px; //222px
 	width: 1000px;
-	height: 3000px;
+	height: 3380px;
 	color: #fff;
 }
 
 .main_page_resume{
 	margin: 0 auto;
-	height: 3250px;
+	height: 3620px;
 	width: 1000px; 
 }
 
@@ -1126,6 +1147,15 @@ transform:rotate(-45deg);
 .job_body ul{
 	margin: 15px;
 }
+
+#features{
+	margin-left: 45px;
+}
+
+#features li {
+	list-style-type: circle;
+}
+
 .resume h4 {
 	/*font-weight: bold;*/
 	text-decoration: underline;
