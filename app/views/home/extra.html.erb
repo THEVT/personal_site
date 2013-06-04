@@ -1,37 +1,4 @@
 
-<script>
-$(document).ready(function() {
-   
-
-	$('.extra_boxes p')
-        .hover(function() {
-            $(this).stop().animate({ top: -10 }, 'fast');
-        }, function() {
-            $(this).stop().animate({ top: 0 }, 'fast');
-        });
-
-		$(function() {
-			$( ".extra_box" ).tabs();
-		  });
-
-		$("#pic1_click p").click(function(){
-			$("#pic1").toggle();
-			$("#pic2").hide();
-			$("#pic3").hide();
-		});
-		$("#pic2_click p").click(function(){
-			$("#pic2").toggle();
-			$("#pic1").hide();
-			$("#pic3").hide();
-		});
-		$("#pic3_click p").click(function(){
-			$("#pic3").toggle();
-			$("#pic2").hide();
-			$("#pic1").hide();
-		});
-});
-
-</script>
 
 <div id= "homepage_background_2">
 
@@ -69,7 +36,7 @@ $(document).ready(function() {
 						<h1>Resume:</h1>
 						<p>This site is pretty much my resume but if there is a need for the paper version, I have links below.  One is on this site and the other is a downloadable pdf.</p>
 						<p>Online Resume: <%= link_to "Click Here".html_safe, resume_path %></p>
-						<p>PDF Download of Resume: Click Here</p>
+						<p>PDF Download of Resume: <%= link_to "Click Here", "/Flynn_Ryan_Resume_Seattle_priv.pdf", :target => "_blank" %></p>
 					</div>
 					<div id="tabs-3" class= "extra_tab">
 						<h1>Drupal:</h1>
@@ -170,3 +137,37 @@ $(document).ready(function() {
 	<%= render "footer" %>
 
 </div>
+
+<script>
+$(document).ready(function() {
+   
+
+	$('.extra_boxes p')
+        .hover(function() {
+            $(this).stop().animate({ top: -10 }, 'fast');
+        }, function() {
+            $(this).stop().animate({ top: 0 }, 'fast');
+        });
+
+		$(function() {
+			$( ".extra_box" ).tabs();
+		  });
+
+		$("#pic1_click p").click(function(){
+			$("#pic1").toggle();
+			$("#pic2").hide();
+			$("#pic3").hide();
+		});
+		$("#pic2_click p").click(function(){
+			$("#pic2").toggle();
+			$("#pic1").hide();
+			$("#pic3").hide();
+		});
+		$("#pic3_click p").click(function(){
+			$("#pic3").toggle();
+			$("#pic2").hide();
+			$("#pic1").hide();
+		});
+});
+
+</script>
